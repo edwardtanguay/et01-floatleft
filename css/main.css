@@ -29,6 +29,7 @@ p {
 	img {
 		float: left;
 		margin-right: 1rem;
+		width: 160px;
 	}
 
 }
@@ -38,8 +39,10 @@ p {
 	h1 {
 		font-size: 3.2rem;
 	}
+
 	img {
 		display: block;
 		width: 100%;
+		margin-bottom: 1rem;
 	}
 }
