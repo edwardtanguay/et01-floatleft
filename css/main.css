@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	padding: 1rem;
+}
+
+section {
+	padding: 1rem 0;
+}
+
+h1 {
+	color: brown;
+}
+
+p {
+	font-size: 1.3rem;
+}
+
+img {
+	float: left;
+	margin-right: 1rem;
+}
