@@ -20,7 +20,7 @@ p {
 	font-size: 1.3rem;
 }
 
-/* smartphone view */
+/* smartphone verticle view */
 @media (max-width: 577px) {
 	h1 {
 		font-size: 1.8rem;
@@ -34,7 +34,7 @@ p {
 
 }
 
-/* computer/tablet view */
+/* computer/tablet/smartphone-horizontal view */
 @media (min-width: 578px) {
 	h1 {
 		font-size: 3.2rem;
