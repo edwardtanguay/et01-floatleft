@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	padding: 1rem;
 }
@@ -19,7 +20,26 @@ p {
 	font-size: 1.3rem;
 }
 
-img {
-	float: left;
-	margin-right: 1rem;
+/* smartphone view */
+@media (max-width: 577px) {
+	h1 {
+		font-size: 1.8rem;
+	}
+
+	img {
+		float: left;
+		margin-right: 1rem;
+	}
+
+}
+
+/* computer/tablet view */
+@media (min-width: 578px) {
+	h1 {
+		font-size: 3.2rem;
+	}
+	img {
+		display: block;
+		width: 100%;
+	}
 }
